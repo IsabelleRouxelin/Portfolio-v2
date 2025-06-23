@@ -37,10 +37,8 @@
         <section id="aboutme" class="flex-wrap justify-content-center">
             <h2>About me</h2>
             <p class="justify-content-center flex-wrap">Hi! I'm Isabelle—a legal compliance specialist turned coding enthusiast and aspiring Full Stack Developer with a passion for solving problems creatively. <br> Whether I'm untangling complex workflows or yarn for my latest crochet project, I thrive on turning chaos into order. I am excited to apply my analytical mindset and passion for learning to new coding challenges.</p>
-            <a href="#contact">
-                <button type="button" id="contact-btn">Contact Me</button>
-            </a>
-            <!--ensure button works-->
+            <a class="btn btn-dark" href="#contact">Contact Me</a>
+           
         </section>
         <section id="techstack" class="flex-wrap justify-content-center">
             <h2>My Tech Stack</h2>
@@ -60,35 +58,34 @@
         </section>
         <section id="projects" class="flex-wrap justify-content-center">
             <h2>My Projects</h2>
-            <!--insert cards for projects-->
             <div class="card" style="width: 18rem;">
+                <h4 class="card-header dark">Portfolio Site</h4>
                 <img src="assets/images/logo.png" alt="portfolio site">
-                <!--screenshot images of projects worked on so far-->
+                <!--screenshot images of portfolio site once completed-->
                 <div class="card-body">
-                    <h5>Portfolio Site</h5>
-                    <p>description of project</p>
-                    <h4>Technologies used</h4>
+                    <p>A personal portfolio website showcasing about me, projects, and contact information.</p>
+                    <h5>Technologies used</h5>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Bootstrap</li>
                     </ul>
-                    <a href=""></a>
+                     <a class="btn btn-dark" href="">Visit Project</a>
+                       <!--insert url in href section once site is deployed-->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="" alt="florist e-commerce site">
-                <!--screenshot images of projects worked on so far-->
+                <h4 class="card-header dark">Florist Multi-page Responsive websiteSite</h4>
+                <img src="assets/images/responsive.jpg" alt="florist e-commerce site">
                 <div class="card-body">
-                    <h5>Florist E-commerce Site</h5>
-                    <p>description of project</p>
-                    <h4>Technologies used</h4>
-                    <ul>
+                    <p>A Multi-page responsive website with easy navigation utilising Flexbox. </p>
+                    <h5>Technologies used</h5>
+                    <ul class="list-group list-group-flush">
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                    <a href=""></a>
-                </div>
+                    <a class="btn btn-dark " href="https://isabellerouxelin.github.io/Responsive-website/">Visit Project</a>
+                </div> 
             </div>
         </section>
         <section id="contact" class="flex-wrap">
@@ -106,7 +103,7 @@
                 <label for="message" class="form-label">Message:</label>
                 <textarea type="text" class="form-control" id="message" placeholder="Your Message..." rows="3" required></textarea>
             </div>
-            <button type="button"id="submit-btn" class="align-items-center justify-content-center">Submit</button>
+            <button type="button"id="submit-btn" class="dark align-items-center justify-content-center">Submit</button>
         </section>
  <!-- REMEMBER to try to link to sections further down on the page rather than separate pages themselves-->
     </main>
