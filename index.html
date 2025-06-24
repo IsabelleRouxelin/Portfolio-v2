@@ -10,15 +10,18 @@
 </head>
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark flex-wrap">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/logo.png" width="200" height="200"  alt="logo" class="d-inline-block align-text-top">
                 </a>
-                <div class="nav-item navbar-collapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#aboutme">About</a>
@@ -36,11 +39,15 @@
                 </div>
             </div>
         </nav>
+    </header>
     <main>
-        <section id="aboutme" class=" container justify-content-center">
-            <h2>About me</h2>
-            <p class="justify-content-center flex-wrap">Hi! I'm Isabelle—a legal compliance specialist turned coding enthusiast and aspiring Full Stack Developer with a passion for solving problems creatively. <br> Whether I'm untangling complex workflows or yarn for my latest crochet project, I thrive on turning chaos into order. I am excited to apply my analytical mindset and passion for learning to new coding challenges.</p>
-            <a class="btn btn-dark" href="#contact">Contact Me</a>
+        <section id="aboutme" class="flex-wrap container-fluid mt-3 ">
+            <div class=" ">
+                <h2>About me</h2>
+                <p class="justify-content-center flex-wrap">Hi! I'm Isabelle—a legal compliance specialist turned coding enthusiast and aspiring Full Stack Developer with a passion for solving problems creatively. <br> Whether I'm untangling complex workflows or yarn for my latest crochet project, I thrive on turning chaos into order. I am excited to apply my analytical mindset and passion for learning to new coding challenges.</p>
+                <a class="btn btn-dark" href="#contact">Contact Me</a>
+            </div>
+            
            
         </section>
         <section id="techstack" class="container justify-content-center">
