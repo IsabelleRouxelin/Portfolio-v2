@@ -40,25 +40,30 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section id="aboutme" class="flex-wrap container-fluid mt-3 ">
-            <div class=" ">
-                <h2>About me</h2>
-                <p class="justify-content-center flex-wrap">Hi! I'm Isabelle—a legal compliance specialist turned coding enthusiast and aspiring Full Stack Developer with a passion for solving problems creatively. <br> Whether I'm untangling complex workflows or yarn for my latest crochet project, I thrive on turning chaos into order. I am excited to apply my analytical mindset and passion for learning to new coding challenges.</p>
-                <a class="btn btn-dark" href="#contact">Contact Me</a>
+    <main class="container-fluid flex-wrap mt-3 mb-3">
+        <section id="aboutme" class="flex-wrap container-fluid mt-5 ">
+            <div class="row justify-content-xs-enter">
+                <div class="text-center">
+                    <h2>About me</h2>
+                    <p class="justify-content-center flex-wrap">Hi! I'm Isabelle—a legal compliance specialist turned coding enthusiast and aspiring Full Stack Developer with a passion for solving problems creatively. <br> Whether I'm untangling complex workflows or yarn for my latest crochet project, I thrive on turning chaos into order. I am excited to apply my analytical mindset and passion for learning to new coding challenges.</p>
+                    <a class="btn btn-dark" href="#contact">Contact Me</a>
+                </div>
             </div>
             
            
         </section>
-        <section id="techstack" class="container justify-content-center">
-            <h2>My Tech Stack</h2>
-            <!--Ideally divide this into frontend, backend, database and tools-->
-            <div id="stacks" class="col-sm-2 justify-content-center">
-                <div class="row">
+        <section id="techstack" class="container align-items-center">
+            <div class="row justify-content-xs-center">
+                <div class="align-items-center text-center mt-5">
+                    <h2>My Tech Stack</h2>
+                <!--Ideally divide this into frontend, backend, database and tools-->
+                <div class="col col-sm-6">
                     <img src="assets/images/JavaScript.png" alt="javascript logo" width="100px" height="100px">
                     <img src="assets/images/Python.png" alt="python logo" width="100px" height="100px">
-                    <img src="assets/images/Bootstrap.png" alt="bootstrap logo" width="100px" height="100px">
+                    <img src="assets/images/Bootstrap.png" alt="bootstrap logo" width="100px" height="100px">        
                     <img src="assets/images/HTML5.png" alt="html logo" width="100px" height="100px">
+                </div>
+                <div class="col col-sm-6">
                     <img src="assets/images/CSS3.png" alt="css logo" width="100px" height="100px">
                     <img src="assets/images/Git.png" alt="git logo" width="100px" height="100px">
                     <img src="assets/images/GitHub.png" alt="github logo" width="100px" height="100px">
@@ -66,12 +71,12 @@
                 </div>
             </div>
         </section>
-        <section id="projects" class="container flex-wrap justify-content-center">
-            <div class="row">
-                <h2>My Projects</h2>
-
+        <section id="projects" class="container-fluid flex-wrap mt-5">
+            <div class="row justify-content-xs-center">
+                <div class="align-items-center text-center">
+                    <h2>My Projects</h2>
                 <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="col-sm-6">
                       <div class="card text-center"=>
                         <div class="card-body">
                             <h4 class="card-header dark">Portfolio Site</h4>
@@ -105,24 +110,31 @@
                       </div> 
                     </div>
                 </div>
+                </div>
             </div>
         </section>
-        <section id="contact" class=" container flex-wrap">
-            <h2>Get in Touch</h2>
-            <p>I would love to hear from you!</p>
-            <div class="mb-3">
-                <label for="name" class="form-label">Full Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Your Full Name" required>
+        <section id="contact" class=" container-fluid flex-wrap mt-5">
+            <div class="row text-center">
+                <h2>Get in Touch</h2>
+                <p>I would love to hear from you!</p>
+                <form class="row g-3 p-6">
+                    <div class="col-6">
+                        <label for="name" class="form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="col-6">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="youremail@example.com" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea type="text" class="form-control" id="message" placeholder="Your Message..." rows="3" required></textarea>
+                    </div>
+                </form>
+                <div class="col-12 mt-3">
+                    <button type="button"id="submit-btn" class="btn btn-dark">Submit</button>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="youremail@example.com" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message:</label>
-                <textarea type="text" class="form-control" id="message" placeholder="Your Message..." rows="3" required></textarea>
-            </div>
-            <button type="button"id="submit-btn" class="dark align-items-center justify-content-center">Submit</button>
         </section>
  <!-- REMEMBER to try to link to sections further down on the page rather than separate pages themselves-->
     </main>
