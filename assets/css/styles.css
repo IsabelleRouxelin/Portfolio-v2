@@ -1,0 +1,35 @@
+:root {
+    --primary-colour: #000000;
+    --secondary-colour: #FF3E96;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    height: 150px;
+}
+
+.btn-dark{
+    font-weight: bold;
+    border-color: var(--secondary-colour);
+}
+
+.btn-dark:hover{
+  color: var(--secondary-colour);
+}
+
+button {
+    border-color: var(--secondary-colour) !important;
+}
+
+button:hover {
+    color: var(--secondary-colour) !important;
+}
+
+:hover {
+    color: var(--secondary-colour);
+}
